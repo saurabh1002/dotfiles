@@ -1,0 +1,11 @@
+i3-wm.window.border.size:                5
+i3-wm.client.focused.color.child_border: #336699
+i3-wm.bar.trayoutput:                    primary
+i3-wm.bar.position:                      top
+i3-wm.gaps.inner.size:                   9
+i3-wm.program.1:                         terminator
+i3-wm.program.2:                         code
+i3-wm.program.3:			 firefox
+i3-wm.program.4:			 nautilus
+i3xrocks.weather.location:               Bonn
+gnome.terminal.update:                   false
