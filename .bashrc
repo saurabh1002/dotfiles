@@ -138,3 +138,9 @@ unset __conda_setup
 # ROS Setup
 source /opt/ros/noetic/setup.bash
 source /home/ssg1002/dev/msr_ws/devel/setup.bash
+
+# Tex PATH
+PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
+
+# Diff-so-fancy PATH
+PATH=/home/ssg1002/dotfiles/diff-so-fancy/diff-so-fancy:$PATH

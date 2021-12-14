@@ -1,1 +1,27 @@
-../.gitconfig
+[user]
+	email = saurabh.gupta1002@gmail.com
+	name = Saurabh Gupta
+[core]
+    	excludesfile = /home/ssg1002/.gitignore_global
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[interactive]
+	diffFilter = diff-so-fancy --patch
+[push]
+	default = current
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	func = 146 bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[diff-so-fancy]
+	markEmptyLines = false
