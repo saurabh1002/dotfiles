@@ -18,8 +18,6 @@ alias books='cd ~/Education\ books/'
 
 alias update_everything="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove"
 
-alias git_token="echo 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"
-
 # Conda envs
 alias conda_base='conda activate base'
 alias cv1-ex='conda activate cv1_ex'
